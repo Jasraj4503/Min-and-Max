@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 85, 0);
+}
+.container{
+    height: 650px;
+    width: 500px;
+    background-color: rgb(13, 13, 50);
+    box-shadow: 0px 5px 12px 2px;
+    min-width: 400px;
+    margin: 20px;
+}
+.left-corner{
+    height: 100px;
+    width: 150px;
+    background-color:  black;
+    border-radius: 0px 0px 60px 0px;
+}
+.logo{
+    height: 80px;
+    width: 120px;
+    background-image: url(Images/images.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.img-box{
+    height: 210px;
+    width: 210px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 5px;
+}
+.main-img{
+    height: 200px;
+    max-width: 200px;
+    background-image: url(Images/6448c1ce35d6ffe59e4d6f46_GettyImages-1399565382.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.service-container{
+    padding: 10px;
+}
+.services-item{
+    display: flex;
+}
+.hexagon {
+    width: 59px;
+    height: 30px;
+    background-color: #FF4500;
+    position: relative;
+    margin: 27.5px 10px;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+}
+
+.hexagon:before {
+    top: -20px;
+    border-bottom: 20px solid #FF4500;
+}
+
+.hexagon:after {
+    bottom: -20px;
+    border-top: 20px solid #FF4500;
+}
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: black;
+}
+.service-info{ 
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.service-title{
+    color: white;
+}
+.service-info-para{
+    max-width: 180px;
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.our-service{
+    padding: 10px;
+    position: absolute;
+}
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF4500;
+    font-size: 20px;
+    font-weight: 100;
+}
+h6 b{
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.service-para{
+    max-width: 400px;
+    color: white;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+@media (max-width: 485px) {
+    .img-box{
+        height: 160px;
+        width: 160px;
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 10px;
+        padding: 5px;
+    }
+    .main-img{
+        height: 150px;
+        max-width: 150px;
+        background-image: url(Images/6448c1ce35d6ffe59e4d6f46_GettyImages-1399565382.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+    }
+  }
+  

@@ -27,6 +27,44 @@ body{
 .card:hover{
     transform: scale(1.05);
 }
+.img-box{
+    height: 200px;
+    width: 100%;
+}
+.img1{
+    background-image: url(images/car2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2{
+    background-image: url(images/Maserati.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    background-image: url(images/Mercedes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img4{
+    background-image: url(images/Porsche.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img5{
+    background-image: url(images/Rolls\ ghost.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img6{
+    background-image: url(images/cars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 h2{
     margin-bottom: 10px;
 }
